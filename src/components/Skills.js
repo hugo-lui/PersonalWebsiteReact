@@ -13,7 +13,7 @@ export default function Skills(props) {
             <p>Advanced</p>
           </div>
           <div className="item-2" id="skill-item">
-            <h4>HTML</h4>
+            <h4>React.js</h4>
             <p>Intermediate</p>
           </div>
           <div id="skill-item">
@@ -21,8 +21,12 @@ export default function Skills(props) {
             <p>Intermediate</p>
           </div>
           <div id="skill-item">
-            <h4>React.js</h4>
+            <h4>HTML</h4>
             <p>Intermediate</p>
+          </div>
+          <div id="skill-item">
+            <h4>Tailwind CSS</h4>
+            <p>Beginner</p>
           </div>
         </div>
         <h3>Back End</h3>
@@ -32,15 +36,15 @@ export default function Skills(props) {
             <p>Advanced</p>
           </div>
           <div className="item-2" id="skill-item">
-            <h4>Python</h4>
+            <h4>SQL</h4>
             <p>Intermediate</p>
           </div>
-          <div id="skill-item">
-            <h4>C#</h4>
+          <div className="item-3"id="skill-item">
+            <h4>Spring Boot</h4>
             <p>Beginner</p>
           </div>
           <div id="skill-item">
-            <h4>SQL</h4>
+            <h4>Python</h4>
             <p>Intermediate</p>
           </div>
           <div id="skill-item">
@@ -48,11 +52,15 @@ export default function Skills(props) {
             <p>Advanced</p>
           </div>
           <div id="skill-item">
-            <h4>Node.js</h4>
+            <h4>PostgreSQL</h4>
             <p>Intermediate</p>
           </div>
           <div id="skill-item">
-            <h4>PostgreSQL</h4>
+            <h4>C#</h4>
+            <p>Beginner</p>
+          </div>
+          <div id="skill-item">
+            <h4>Node.js</h4>
             <p>Intermediate</p>
           </div>
           <div id="skill-item">
