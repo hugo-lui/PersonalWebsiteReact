@@ -1,9 +1,10 @@
 import React from "react";
 import "./Projects.css";
-import datamuse from "../assets/datamuse.png";
 import file from "../assets/file.png";
+import sidebar from "../assets/sidebar.png";
 import sudoku from "../assets/sudoku.png";
 import unity from "../assets/unity.png";
+import weather from "../assets/weather.png";
 
 export default function Projects(props) {
     return (
@@ -17,7 +18,7 @@ export default function Projects(props) {
                         </div>
                         <div className="content-section-text">
                             <h3 className="project-title">Pokemon<br/>Management<br/>System</h3>
-                                <p className="paragraph">A pokemon card file management system in Java. Supports adding and editing albums, cards, and attributes.</p>
+                                <p className="paragraph">A file management system using OOP. Supports editing albums, cards, and attributes.</p>
                                 <a href="https://github.com/hugo-lui/Pokemon" target="_blank" rel="noreferrer noopener"><button className="generic-button">View Project</button></a>
                         </div>
                     </div>
@@ -43,12 +44,22 @@ export default function Projects(props) {
                     </div>
                     <div className="project-item fade">
                         <div className="project-image-container">
-                            <img className="project-image-thumbnail" src={datamuse} alt="datamuse"/>
+                            <img className="project-image-thumbnail" src={weather} alt="weather"/>
                         </div>
                         <div className="content-section-text">
-                            <h3 className="project-title">Synonym<br/>Generator</h3>
-                            <p className="paragraph">Generates alternate sentences with synonyms using the DatamuseAPI.</p>
-                            <a href="https://github.com/hugo-lui/Synonyms" target="_blank" rel="noreferrer noopener"><button className="generic-button">View Project</button></a>
+                            <h3 className="project-title">Weather<br/>App</h3>
+                            <p className="paragraph">A full-stack application using the PERN stack and the Open-Meteo Weather Forecast API.</p>
+                            <a href="https://github.com/hugo-lui/WeatherApp" target="_blank" rel="noreferrer noopener"><button className="generic-button">View Project</button></a>
+                        </div>
+                    </div>
+                    <div className="project-item fade">
+                        <div className="project-image-container">
+                            <img className="project-image-thumbnail" src={sidebar} alt="sidebar"/>
+                        </div>
+                        <div className="content-section-text">
+                            <h3 className="project-title">Discord<br/>Sidebar</h3>
+                            <p className="paragraph">A clone of Discord's sidebar using React and Tailwind.</p>
+                            <a href="https://github.com/hugo-lui/DiscordSidebarClone" target="_blank" rel="noreferrer noopener"><button className="generic-button">View Project</button></a>
                         </div>
                     </div>
                 </div>
