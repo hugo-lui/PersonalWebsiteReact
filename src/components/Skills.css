@@ -37,7 +37,8 @@
 
 #skill-item:hover {
     background-color: #8f86d9;
-    border-color: #f5f5fa;
+    border-color: #eaeaf1;
+    transition-duration: 150ms;
 }
 
 .section {

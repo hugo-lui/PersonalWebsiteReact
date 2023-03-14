@@ -1,7 +1,8 @@
 import React from "react";
 import "./Projects.css";
 import file from "../assets/file.png";
-import sidebar from "../assets/sidebar.png";
+import jwt from "../assets/jwt.png";
+import sidebar from "../assets/sidebar.jpg";
 import sudoku from "../assets/sudoku.png";
 import unity from "../assets/unity.png";
 import weather from "../assets/weather.png";
@@ -12,7 +13,7 @@ export default function Projects(props) {
             <div id="projects">
                 <h2 className="content-section-title">Projects</h2>
                 <div className="project-list">
-                    <div className="project-item fade">
+                    <div className="project-item fade" id="grow">
                         <div className="project-image-container">
                             <img className="project-image-thumbnail" src={file} alt="file"/>
                         </div>
@@ -22,17 +23,17 @@ export default function Projects(props) {
                                 <a href="https://github.com/hugo-lui/Pokemon" target="_blank" rel="noreferrer noopener"><button className="generic-button">View Project</button></a>
                         </div>
                     </div>
-                        <div className="project-item fade">
-                            <div className="project-image-container">
-                                <img className="project-image-thumbnail" src={sudoku} alt="sudoku"/>
-                            </div>
-                            <div className="content-section-text">
-                                <h3 className="project-title">Sudoku<br/>Solver</h3>
-                                <p className="paragraph">Solves a given sudoku grid using backtracking. Complete with a visualizer</p>
-                                <a href="https://github.com/hugo-lui/SudokuSolver" target="_blank" rel="noreferrer noopener"><button className="generic-button">View Project</button></a>
-                            </div>
+                    <div className="project-item fade" id="grow">
+                        <div className="project-image-container">
+                            <img className="project-image-thumbnail" src={sudoku} alt="sudoku"/>
+                        </div>
+                        <div className="content-section-text">
+                            <h3 className="project-title">Sudoku<br/>Solver</h3>
+                            <p className="paragraph">Solves a given sudoku grid using backtracking. Complete with a visualizer</p>
+                            <a href="https://github.com/hugo-lui/SudokuSolver" target="_blank" rel="noreferrer noopener"><button className="generic-button">View Project</button></a>
+                        </div>
                     </div>
-                    <div className="project-item fade">
+                    <div className="project-item fade" id="grow">
                         <div className="project-image-container">
                             <img className="project-image-thumbnail" src={unity} alt="unity"/>
                         </div>
@@ -42,7 +43,19 @@ export default function Projects(props) {
                             <a href="https://github.com/hugo-lui/UnityLandmass" target="_blank" rel="noreferrer noopener"><button className="generic-button">View Project</button></a>
                         </div>
                     </div>
-                    <div className="project-item fade">
+                </div>
+                <div className="project-list">
+                    <div className="project-item fade" id="grow">
+                        <div className="project-image-container">
+                            <img className="project-image-thumbnail" src={jwt} alt="jwt"/>
+                        </div>
+                        <div className="content-section-text">
+                            <h3 className="project-title">User<br/>Authentication</h3>
+                            <p className="paragraph">User authentication with Express.js and JSON Web Tokens.</p>
+                            <a href="https://github.com/hugo-lui/JWT-Auth" target="_blank" rel="noreferrer noopener"><button className="generic-button">View Project</button></a>
+                        </div>
+                    </div>
+                    <div className="project-item fade" id="grow">
                         <div className="project-image-container">
                             <img className="project-image-thumbnail" src={weather} alt="weather"/>
                         </div>
@@ -52,7 +65,7 @@ export default function Projects(props) {
                             <a href="https://github.com/hugo-lui/WeatherApp" target="_blank" rel="noreferrer noopener"><button className="generic-button">View Project</button></a>
                         </div>
                     </div>
-                    <div className="project-item fade">
+                    <div className="project-item fade" id="grow">
                         <div className="project-image-container">
                             <img className="project-image-thumbnail" src={sidebar} alt="sidebar"/>
                         </div>
