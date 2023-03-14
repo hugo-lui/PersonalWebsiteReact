@@ -50,12 +50,9 @@
     border-color: #b3a5f2;
     background-color: #ebebf8;
 }
-
-#grow { 
-    transition: all 180ms ease-in-out; 
-}
     
 #grow:hover { 
+    transition-duration: 180ms;
     transform: scale(1.05); 
 }
 
